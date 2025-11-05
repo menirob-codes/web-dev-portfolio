@@ -1,0 +1,233 @@
+
+
+
+
+
+.header{
+
+
+background-image: url('../Assets/Hero-bg.png'), url('../images/header_bg.png');
+width: 1440px; ;
+height:698px ;
+     
+}
+
+.header nav {
+    width: 1050px;
+    height: 256px;
+    
+}
+
+/* Flex container for ul */
+.header nav ul {
+    display: flex;                  
+    justify-content: space-between;   
+    align-items: center;              
+    list-style: none;                
+   
+    padding: 0 40px;  
+    gap: auto;
+    list-style: none;
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 0;
+                   
+}
+
+
+
+/* nav style */
+
+
+nav ul li {
+list-style: none;
+margin-right: 51px;
+margin-top: 20px;
+}
+
+nav ul a{
+    text-decoration:none;
+    font-weight: bolder;
+
+    font-size: 20px;
+    color:#4E47FF;
+    width: 99px;
+
+}
+
+
+/*shared styles*/
+
+    .btn-primary{
+        background-color: #4E47FF;
+        color: white;
+        font-weight: bold;
+        width: 100px;
+ 
+
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+
+
+}
+
+
+/*banner styles*/
+
+
+
+.banner{
+
+
+justify-content: space-between;
+
+display: flex;
+    margin: 0 150px 0 200px;
+    align-items: center;
+    padding: 100px 100px;
+}
+
+
+.banner-content{
+
+    justify-content: space-between;
+    max-width: 540px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 0px;
+   
+   
+
+
+}
+.banner-button{
+
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 10px 18px;
+    background-color: #4E47FF;
+        color: white;
+        font-weight: bold;
+        border-radius: 5px;
+        font-size:10px ;
+        font-weight:bold ;
+}
+
+.banner-description{
+
+    color: #252432;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+
+    
+}
+
+
+
+.banner-protfolio-picture{
+
+
+    width: 1440px;
+    height:700px ;
+    
+}
+
+
+
+/*section-1*/
+
+.wec-mini{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: auto;
+    margin-top: 10px;
+    width: 1140px; ;
+height:328px ;
+padding: 50px 50px;
+     
+
+
+}
+
+
+
+.section-content{
+                
+  align-items: center;        
+  justify-content: space-between;
+  padding: 50px;
+  gap: 50px;           
+
+
+   
+}
+
+.p-head{
+
+    color:#252432;
+    width: 517px;
+    height: 49px;
+    font-size: 42px;
+    margin-bottom: 0;
+
+}
+
+
+
+
+.section1-text{
+
+
+    color: #252432;
+    font-size: 24px;
+   
+   
+}
+
+
+
+
+
+.wec-img{
+flex: 1;
+ width: 100%; 
+   height: auto;  
+   
+
+ 
+  
+
+}
+
+.img-sec1{
+
+
+    border-radius: 48px;
+    width: 403px;
+    height: 300px;
+
+
+}
+
+
+.lunch-live{
+    
+background-color: #4E47FF;
+        color: white;
+        font-weight: bold;
+        width: auto;
+        padding: 10px 15px;
+        border-radius: 7px;
+        box-shadow:0 2px 10px rgb(0 0 0 0.16);
+        outline: none !important;
+        border: none;
+
+
+}
