@@ -42,7 +42,8 @@ nav ul li:first-child a {
 }
 
 /* Sign Up button */
-nav ul li:last-child a .btn-primary {
+
+.btn-primary {
     background-color: #4E47FF;
     color: white;
     padding: 10px 20px;
@@ -51,12 +52,20 @@ nav ul li:last-child a .btn-primary {
     font-weight: bold;
     cursor: pointer;
     text-decoration: none;
+    transition: background-color 0.3s ease;
 }
+
+
+.btn-primary:hover {
+    background-color: #5753cd;
+}
+
+
 
 /* ----- Banner ----- */
 .banner {
-    width: 100%;                   /* full header width */
-    max-width: 900px;             /* match header & sections */
+    width: 100%;                   
+    max-width: 900px;            
     margin: 0 auto;
     height: 256px; 
                    /* taller banner */
@@ -97,8 +106,12 @@ nav ul li:last-child a .btn-primary {
     text-decoration: none;
     cursor: pointer;
 }
+.banner-button:hover{
 
+        background-color: #5753cd;}
 
+   
+    
 
 
 
@@ -197,28 +210,23 @@ flex: 1;
 }
 
 
-.lunch-live{
-    
-background-color: #4E47FF;
-        color: white;
-        font-weight: bold;
-        width: auto;
-        padding: 10px 15px;
-        border-radius: 7px;
-        box-shadow:0 2px 10px rgb(0 0 0 0.16);
-        outline: none !important;
-        border: none;
-
-
+.lunch-live {
+    background-color:#4E47FF;
+    color: white;
+    font-weight: bold;
+    width: auto;
+    padding: 10px 15px;
+    border-radius: 7px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.16);
+    outline: none !important;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
 }
+
 .lunch-live:hover{
-
-background-color: #5753cd;
-
-
-  
+    background-color: #5753cd;
 }
-
 
 
 
@@ -456,9 +464,10 @@ footer.foot-end > div:first-child {
 
 /* Title styling */
 footer.foot-end .footer-title {
-    font-size: 50px;
+    font-size: 70px;
     font-weight: bold;
     color: #000000; 
+    text-align: center;
 }
 
 /* Right div (Form) */
@@ -503,15 +512,107 @@ footer.foot-end textarea {
 
 .footer-button {
     padding: 10px 20px;
-    background-color: hsl(258, 78%, 57%);
+    background-color: #4E47FF;
     color: #fff;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
-     width: 100%;
+    width: 100%;
 }
 
-.footer-buttn:hover {
-    background-color: #4713a0;
+.footer-button:hover {
+    background-color: #3028ff;
+}
+
+
+
+
+
+
+
+
+
+
+/*the end*/
+
+.footer-last{
+    background-color:white;
+    color: #fff;
+    padding: 40px 20px;
+    text-align: center;          /* logo + description centered */
+    box-sizing: border-box;
+    width: 1440px;
+    height: 428px;
+    gap: 50PX;
+}
+
+/* Logo */
+.footer-last h1.footer-logo {
+    font-size: 100px;
+    font-weight: bold;
+    margin-bottom: 0;
+    color: #4E47FF;
+    padding-bottom: 0%;
+}
+
+/* Description */
+.footer-last p {
+    max-width: 600px;
+    margin: 0 auto 20px auto;    /* bottom margin for spacing */
+    padding-top: 0;
+    color: #8987A1;
+    
+}
+
+/* Menu items horizontal */
+.flast-div {
+    display: flex;               /* horizontal layout */
+    justify-content: center;     /* center horizontally */
+    gap: 30px;                   /* spacing between items */
+                /* wrap if screen small */
+}
+
+.flast-div .text {
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
+    color: #8987A1;
+
+}
+
+.flast-div .text:hover {
+    color: #4E47FF;
+}
+
+.container{
+
+
+width: 531px;
+height:221px ;
+gap: 30px;
+margin-top: 100PX;
+padding: 0 0;
+
+
+}
+.contaniner h1 {
+    margin: 0;
+    padding: 0;
+}
+
+.contaniner p {
+    margin-top: 5px;   /* gap kom -> iccha hole 0 kore dite paro */
+    margin-bottom: 20px;
+    padding: 0;
+}
+
+.footer-logo {
+    margin: 0;
+    padding: 0;
+}
+
+.contaniner p {
+    margin-top: 5px; 
+    margin-bottom: 20px;
 }
